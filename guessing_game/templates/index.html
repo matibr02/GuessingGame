@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <h1>Welcome to the Number Guessing Game!</h1>
+    <form method="POST">
+        <label for="guess">Guess a number between 1 and 10:</label>
+        <input type="number" id="guess" name="guess" required>
+        <button type="submit">Submit Guess</button>
+    </form>
+
+    <p>{{ message }}</p>
+    <p>Attempts: {{ attempts }}</p>
+</body>
+</html>
